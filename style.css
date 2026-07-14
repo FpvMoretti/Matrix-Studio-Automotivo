@@ -170,7 +170,36 @@ button {
   font-size: 1.2rem;
 }
 
-/* Hero */
+/* Nova capa inicial - Sobre a Matrix */
+.about-hero {
+  padding-top: 72px;
+}
+
+.about-hero .about-content {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 58px;
+  align-items: center;
+}
+
+.about-hero .about-text h2 {
+  font-size: clamp(2.8rem, 5vw, 4.2rem);
+  line-height: 1.08;
+  margin-bottom: 24px;
+}
+
+.about-hero .about-text p {
+  font-size: 1.04rem;
+  color: var(--text-soft);
+  margin-bottom: 16px;
+  max-width: 620px;
+}
+
+.about-hero .hero-actions {
+  margin-top: 34px;
+}
+
+/* Hero antigo, agora Padrão Matrix */
 .hero {
   padding-top: 72px;
 }
@@ -381,7 +410,6 @@ button {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.28);
 }
 
-/* Fotos da galeria */
 .gallery-card img {
   width: 100%;
   height: 260px;
@@ -390,14 +418,12 @@ button {
   background: #000;
 }
 
-/* Cards de vídeo no formato vertical */
 .video-gallery-card {
   max-width: 360px;
   width: 100%;
   margin: 0 auto;
 }
 
-/* Vídeos da galeria em formato Reels */
 .gallery-video-frame {
   width: 100%;
   aspect-ratio: 9 / 16;
@@ -468,7 +494,7 @@ button {
   color: var(--text-soft);
 }
 
-/* Sobre */
+/* Sobre padrão */
 .about-content {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
@@ -704,7 +730,8 @@ button {
   }
 
   .hero-content,
-  .about-content {
+  .about-content,
+  .about-hero .about-content {
     grid-template-columns: 1fr;
   }
 
@@ -773,14 +800,11 @@ button {
     width: 100%;
     padding: 24px;
     margin-left: 0;
-
     background: rgba(15, 17, 19, 0.98);
     border-bottom: 1px solid var(--border-gray);
-
     flex-direction: column;
     align-items: flex-start;
     gap: 18px;
-
     transform: translateY(-130%);
     opacity: 0;
     pointer-events: none;
@@ -801,12 +825,17 @@ button {
     bottom: -5px;
   }
 
-  .hero {
+  .hero,
+  .about-hero {
     padding-top: 56px;
   }
 
   .hero-content {
     gap: 36px;
+  }
+
+  .about-hero .about-text h2 {
+    font-size: clamp(2.3rem, 10vw, 3.2rem);
   }
 
   .hero-video {

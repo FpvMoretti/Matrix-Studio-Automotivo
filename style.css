@@ -170,7 +170,7 @@ button {
   font-size: 1.2rem;
 }
 
-/* Nova capa inicial - Sobre a Matrix */
+/* Capa inicial - Sobre a Matrix */
 .about-hero {
   padding-top: 72px;
 }
@@ -193,10 +193,6 @@ button {
   color: var(--text-soft);
   margin-bottom: 16px;
   max-width: 620px;
-}
-
-.about-hero .hero-actions {
-  margin-top: 34px;
 }
 
 /* Hero antigo, agora Padrão Matrix */
@@ -387,7 +383,7 @@ button {
   margin-top: -4px;
 }
 
-/* Galeria com fotos e vídeos */
+/* Galeria */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -494,25 +490,6 @@ button {
   color: var(--text-soft);
 }
 
-/* Sobre padrão */
-.about-content {
-  display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: 58px;
-  align-items: center;
-}
-
-.about-text h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
-  margin-bottom: 22px;
-}
-
-.about-text p {
-  color: var(--text-soft);
-  margin-bottom: 16px;
-  max-width: 620px;
-}
-
 /* Feedbacks */
 .feedback-grid {
   display: grid;
@@ -581,7 +558,7 @@ button {
   justify-content: center;
 }
 
-/* Horários e local com Google Maps */
+/* Horários e local */
 .contact-section {
   padding-top: 40px;
 }
@@ -730,7 +707,6 @@ button {
   }
 
   .hero-content,
-  .about-content,
   .about-hero .about-content {
     grid-template-columns: 1fr;
   }

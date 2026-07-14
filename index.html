@@ -6,13 +6,11 @@
 
   <title>Matrix Studio Automotivo</title>
 
-  <!-- Ícones do Font Awesome -->
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
   />
 
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -53,19 +51,68 @@
 
       <nav class="navbar" id="navbar">
         <a href="#inicio" class="nav-link active">Início</a>
+        <a href="#padrao" class="nav-link">Padrão Matrix</a>
         <a href="#contato" class="nav-link">Contato</a>
         <a href="#horarios" class="nav-link">Horários e local</a>
         <a href="#galeria" class="nav-link">Galeria</a>
         <a href="#servicos" class="nav-link">Serviços</a>
-        <a href="#sobre" class="nav-link">Sobre a Matrix</a>
         <a href="#feedbacks" class="nav-link">Feedbacks</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <!-- Início -->
-    <section class="hero section" id="inicio">
+    <!-- Nova capa inicial: Sobre a Matrix -->
+    <section class="section about-hero" id="inicio">
+      <div class="container about-content">
+        <div class="about-text">
+          <span class="section-tag">Matrix Studio Automotivo</span>
+
+          <h2>Sobre a Matrix</h2>
+
+          <p>
+            A nossa trajetória é marcada pela busca constante pela perfeição.
+            A Matrix Studio Automotivo iniciou suas atividades em 7 de junho
+            de 2020, na garagem de casa. Desde o primeiro dia, o objetivo
+            sempre foi o mesmo: oferecer um atendimento altamente qualificado
+            e diferenciado.
+          </p>
+
+          <p>
+            Hoje, transformamos essa paixão em técnicas avançadas de estética
+            automotiva. Cuidamos do seu patrimônio com a máxima atenção aos
+            mínimos detalhes, garantindo proteção, sofisticação e resultados
+            que impressionam.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="https://api.whatsapp.com/message/LI2Z5MIT6YVEK1?autoload=1&app_absent=0"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              Agendar pelo WhatsApp
+            </a>
+
+            <a href="#padrao" class="btn btn-outline">
+              Conhecer o Padrão Matrix
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="about-image">
+          <img
+            src="./IMG_2219.JPG.jpeg"
+            alt="Imagem da Matrix Studio Automotivo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Antigo início, agora com novo nome -->
+    <section class="hero section" id="padrao">
       <div class="container hero-content">
         <div class="hero-text">
           <span class="section-tag">Estética automotiva</span>
@@ -103,7 +150,6 @@
           </div>
         </div>
 
-        <!-- Vídeo de capa via Google Drive -->
         <div class="hero-video drive-video">
           <iframe
             src="https://drive.google.com/file/d/16NVKANiLfCDG2WNI1-alt5iJ8n7IyyCT/preview"
@@ -129,7 +175,6 @@
         </div>
 
         <div class="gallery-grid">
-          <!-- Vídeo 1 -->
           <article class="gallery-card video-gallery-card">
             <div class="gallery-video-frame">
               <iframe
@@ -145,7 +190,6 @@
             </div>
           </article>
 
-          <!-- Vídeo 2 -->
           <article class="gallery-card video-gallery-card">
             <div class="gallery-video-frame">
               <iframe
@@ -161,7 +205,6 @@
             </div>
           </article>
 
-          <!-- Vídeo 3 -->
           <article class="gallery-card video-gallery-card">
             <div class="gallery-video-frame">
               <iframe
@@ -177,7 +220,6 @@
             </div>
           </article>
 
-          <!-- Foto 1 -->
           <article class="gallery-card">
             <img
               src="./IMG_1925.PNG"
@@ -193,7 +235,6 @@
             </div>
           </article>
 
-          <!-- Foto 2 -->
           <article class="gallery-card">
             <img
               src="./IMG_1923.PNG"
@@ -209,7 +250,6 @@
             </div>
           </article>
 
-          <!-- Foto 3 -->
           <article class="gallery-card">
             <img
               src="./IMG_1924.PNG"
@@ -273,38 +313,6 @@
             <h3>Revitalização de Faróis</h3>
             <p>Restaura o brilho e renova a aparência dos faróis.</p>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Sobre -->
-    <section class="section about-section" id="sobre">
-      <div class="container about-content">
-        <div class="about-text">
-          <h2>Sobre a Matrix</h2>
-
-          <p>
-            A nossa trajetória é marcada pela busca constante pela perfeição.
-            A Matrix Studio Automotivo iniciou suas atividades em 7 de junho
-            de 2020, na garagem de casa. Desde o primeiro dia, o objetivo
-            sempre foi o mesmo: oferecer um atendimento altamente qualificado
-            e diferenciado.
-          </p>
-
-          <p>
-            Hoje, transformamos essa paixão em técnicas avançadas de estética
-            automotiva. Cuidamos do seu patrimônio com a máxima atenção aos
-            mínimos detalhes, garantindo proteção, sofisticação e resultados
-            que impressionam.
-          </p>
-        </div>
-
-        <!-- Imagem da seção Sobre -->
-        <div class="about-image">
-          <img
-            src="./IMG_2219.JPG.jpeg"
-            alt="Imagem da Matrix Studio Automotivo"
-          />
         </div>
       </div>
     </section>
@@ -491,12 +499,10 @@
     </div>
   </footer>
 
-  <!-- Botão voltar ao topo -->
   <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
     <i class="fa-solid fa-arrow-up"></i>
   </button>
 
-  <!-- JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Matrix Studio Automotivo</title>
+
+  <!-- Ícones do Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Barra social superior -->
+  <div class="top-social-bar">
+    <a
+      href="https://www.instagram.com/matrix_studio_automotivo/"
+      target="_blank"
+      aria-label="Instagram da Matrix Studio Automotivo"
+    >
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a
+      href="https://api.whatsapp.com/message/LI2Z5MIT6YVEK1?autoload=1&app_absent=0"
+      target="_blank"
+      aria-label="WhatsApp da Matrix Studio Automotivo"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- Cabeçalho principal -->
+  <header class="header" id="header">
+    <div class="container header-content">
+      <a href="#inicio" class="logo-area">
+        <img
+          src="./matrixx.png"
+          alt="Logo Matrix Studio Automotivo"
+          class="logo-img"
+        />
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="navbar" id="navbar">
+        <a href="#inicio" class="nav-link active">Início</a>
+        <a href="#contato" class="nav-link">Contato</a>
+        <a href="#horarios" class="nav-link">Horários e local</a>
+        <a href="#galeria" class="nav-link">Galeria</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#sobre" class="nav-link">Sobre a Matrix</a>
+        <a href="#feedbacks" class="nav-link">Feedbacks</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Início -->
+    <section class="hero section" id="inicio">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="section-tag">Estética automotiva</span>
+
+          <h1>
+            Seu carro no <br />
+            Padrão <span>Matrix.</span>
+          </h1>
+
+          <p class="hero-description">
+            Estética automotiva de alto padrão com cuidado, brilho, proteção
+            e atenção aos mínimos detalhes.
+          </p>
+
+          <p class="hero-description secondary">
+            Na Matrix Studio Automotivo, cada veículo recebe um tratamento
+            completo para valorizar sua aparência e entregar um acabamento
+            impecável.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="https://api.whatsapp.com/message/LI2Z5MIT6YVEK1?autoload=1&app_absent=0"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              Agendar pelo WhatsApp
+            </a>
+
+            <a href="#servicos" class="btn btn-outline">
+              Ver serviços
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Vídeo de capa via Google Drive -->
+        <div class="hero-video drive-video">
+          <iframe
+            src="https://drive.google.com/file/d/16NVKANiLfCDG2WNI1-alt5iJ8n7IyyCT/preview"
+            allow="autoplay; fullscreen"
+            allowfullscreen>
+          </iframe>
+
+          <div class="hero-video-overlay">
+            <span>Padrão Matrix</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section-title">
+          <span></span>
+          <h2>Galeria</h2>
+          <span></span>
+          <p>Padrão Matrix</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Vídeo 1 -->
+          <article class="gallery-card video-gallery-card">
+            <div class="gallery-video-frame">
+              <iframe
+                src="https://drive.google.com/file/d/1GRLl5jh8CaOpCwdiiU_wEM5kVQr0VElS/preview"
+                allow="autoplay; fullscreen"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+            <div class="gallery-caption">
+              <h3>Processo Matrix</h3>
+              <p>Detalhes do cuidado automotivo.</p>
+            </div>
+          </article>
+
+          <!-- Vídeo 2 -->
+          <article class="gallery-card video-gallery-card">
+            <div class="gallery-video-frame">
+              <iframe
+                src="https://drive.google.com/file/d/16JJMSvufgB_YwpOGV8B5yJ8Jb7a6uK0d/preview"
+                allow="autoplay; fullscreen"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+            <div class="gallery-caption">
+              <h3>Acabamento Premium</h3>
+              <p>Resultado com atenção aos mínimos detalhes.</p>
+            </div>
+          </article>
+
+          <!-- Vídeo 3 -->
+          <article class="gallery-card video-gallery-card">
+            <div class="gallery-video-frame">
+              <iframe
+                src="https://drive.google.com/file/d/15FITSWlVeLV_1nuQkQXAIg_XBRLC1LJ7/preview"
+                allow="autoplay; fullscreen"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+            <div class="gallery-caption">
+              <h3>Resultado Final</h3>
+              <p>Visual renovado no Padrão Matrix.</p>
+            </div>
+          </article>
+
+          <!-- Foto 1 -->
+          <article class="gallery-card">
+            <img
+              src="./IMG_1925.PNG"
+              alt="Volkswagen atendido pela Matrix Studio Automotivo"
+            />
+
+            <div class="gallery-caption">
+              <h3>Volkswagen no Padrão Matrix</h3>
+              <p>
+                Limpeza, proteção e estética automotiva para valorizar
+                cada detalhe.
+              </p>
+            </div>
+          </article>
+
+          <!-- Foto 2 -->
+          <article class="gallery-card">
+            <img
+              src="./IMG_1923.PNG"
+              alt="Dodge Charger laranja na Matrix Studio Automotivo"
+            />
+
+            <div class="gallery-caption">
+              <h3>Dodge Charger no Padrão Matrix</h3>
+              <p>
+                Um clássico tratado com cuidado, brilho e acabamento premium
+                em cada detalhe.
+              </p>
+            </div>
+          </article>
+
+          <!-- Foto 3 -->
+          <article class="gallery-card">
+            <img
+              src="./IMG_1924.PNG"
+              alt="Porsche vermelho na Matrix Studio Automotivo"
+            />
+
+            <div class="gallery-caption">
+              <h3>Porsche no Padrão Matrix</h3>
+              <p>
+                Alto padrão automotivo com brilho, sofisticação e resultado
+                impecável.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section-title">
+          <span></span>
+          <h2>Serviços</h2>
+          <span></span>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <i class="fa-solid fa-car-on"></i>
+            <h3>Lavagem Premium</h3>
+            <p>Limpeza completa com atenção aos detalhes.</p>
+          </article>
+
+          <article class="service-card">
+            <i class="fa-solid fa-spray-can-sparkles"></i>
+            <h3>Polimento Técnico</h3>
+            <p>Recupera o brilho e remove marcas superficiais.</p>
+          </article>
+
+          <article class="service-card">
+            <i class="fa-solid fa-chair"></i>
+            <h3>Higienização Interna</h3>
+            <p>Ambiente interno limpo, confortável e renovado.</p>
+          </article>
+
+          <article class="service-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Vitrificação</h3>
+            <p>Proteção e brilho duradouro para a pintura.</p>
+          </article>
+
+          <article class="service-card">
+            <i class="fa-regular fa-window-maximize"></i>
+            <h3>Insulfilm</h3>
+            <p>Mais conforto, privacidade e proteção solar.</p>
+          </article>
+
+          <article class="service-card">
+            <i class="fa-regular fa-lightbulb"></i>
+            <h3>Revitalização de Faróis</h3>
+            <p>Restaura o brilho e renova a aparência dos faróis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section about-section" id="sobre">
+      <div class="container about-content">
+        <div class="about-text">
+          <h2>Sobre a Matrix</h2>
+
+          <p>
+            A nossa trajetória é marcada pela busca constante pela perfeição.
+            A Matrix Studio Automotivo iniciou suas atividades em 7 de junho
+            de 2020, na garagem de casa. Desde o primeiro dia, o objetivo
+            sempre foi o mesmo: oferecer um atendimento altamente qualificado
+            e diferenciado.
+          </p>
+
+          <p>
+            Hoje, transformamos essa paixão em técnicas avançadas de estética
+            automotiva. Cuidamos do seu patrimônio com a máxima atenção aos
+            mínimos detalhes, garantindo proteção, sofisticação e resultados
+            que impressionam.
+          </p>
+        </div>
+
+        <!-- Imagem da seção Sobre -->
+        <div class="about-image">
+          <img
+            src="./IMG_2219.JPG.jpeg"
+            alt="Imagem da Matrix Studio Automotivo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedbacks -->
+    <section class="section" id="feedbacks">
+      <div class="container">
+        <div class="section-title">
+          <span></span>
+          <h2>Feedbacks</h2>
+          <span></span>
+        </div>
+
+        <div class="feedback-grid">
+          <article class="feedback-card">
+            <div class="feedback-top">
+              <i class="fa-solid fa-quote-left"></i>
+
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <p>
+              Fiz um serviço de higienização e lavagem completa, ficou top
+              o serviço. O atendimento também foi ótimo, eles são muito
+              atenciosos.
+            </p>
+
+            <div class="client">
+              <i class="fa-solid fa-user"></i>
+              <strong>Cezar</strong>
+            </div>
+          </article>
+
+          <article class="feedback-card">
+            <div class="feedback-top">
+              <i class="fa-solid fa-quote-left"></i>
+
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <p>
+              Entrei em contato com a empresa. Quem me atendeu foi o Pedro,
+              rapaz muito bem educado e profissional. Me deu o atendimento
+              que nunca recebi em lugares que fazem serviço de lavagem.
+              Indico muito!
+            </p>
+
+            <div class="client">
+              <i class="fa-solid fa-user"></i>
+              <strong>Antonio</strong>
+            </div>
+          </article>
+
+          <article class="feedback-card">
+            <div class="feedback-top">
+              <i class="fa-solid fa-quote-left"></i>
+
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <p>
+              Maravilhosa. Deixei um carro imundo e peguei um carro que nem
+              parecia o meu. Limpíssimo e com um cheiro de camomila que amei.
+              Vocês trabalham muito bem. Uma empresa que indico.
+            </p>
+
+            <div class="client">
+              <i class="fa-solid fa-user"></i>
+              <strong>Cassia</strong>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Horários e local / Contato -->
+    <section class="section contact-section" id="horarios">
+      <div class="container">
+        <div class="section-title">
+          <span></span>
+          <h2>Horários e local</h2>
+          <span></span>
+        </div>
+
+        <div class="location-layout">
+          <div class="map-box">
+            <iframe
+              src="https://www.google.com/maps?q=Rua%20Jo%C3%A3o%20XXIII%2C%2056%20-%20Centro%2C%20Caieiras%20-%20SP%2C%2007700-177&output=embed"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <div class="contact-info-card" id="contato">
+            <div class="contact-address">
+              <i class="fa-solid fa-location-dot"></i>
+
+              <div>
+                <h3>Endereço</h3>
+                <p>
+                  Rua João XXIII, 56 - Centro,<br />
+                  Caieiras - SP, 07700-177
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-hours">
+              <h3>Funcionamento</h3>
+
+              <p>
+                <i class="fa-regular fa-clock"></i>
+                Segunda a sexta, das 8:00 às 17:00
+              </p>
+
+              <p>
+                <i class="fa-regular fa-calendar"></i>
+                Sábados, das 8:00 às 12:00
+              </p>
+
+              <p>
+                <i class="fa-solid fa-circle-info"></i>
+                Atendimento com agendamento prévio via WhatsApp.
+              </p>
+            </div>
+
+            <div class="contact-buttons">
+              <a
+                href="https://api.whatsapp.com/message/LI2Z5MIT6YVEK1?autoload=1&app_absent=0"
+                target="_blank"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+                WhatsApp
+              </a>
+
+              <a
+                href="https://www.instagram.com/matrix_studio_automotivo/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+              </a>
+
+              <a
+                href="https://www.google.com/maps/place/Rua+Jo%C3%A3o+XXIII,+56+-+Centro,+Caieiras+-+SP,+07700-177"
+                target="_blank"
+              >
+                <i class="fa-solid fa-location-arrow"></i>
+                Ver rota no Google Maps
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>Matrix Studio Automotivo — cuidado e excelência em cada detalhe.</p>
+      <small>© 2026 Matrix Studio Automotivo. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+  <!-- Botão voltar ao topo -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
